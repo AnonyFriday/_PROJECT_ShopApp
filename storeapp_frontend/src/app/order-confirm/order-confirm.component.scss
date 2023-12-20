@@ -5,3 +5,39 @@
   border-radius: 10px;
   box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
 }
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.product-name {
+  color: aliceblue;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+  border-collapse: separate;
+  border: 1px solid black;
+  border-spacing: 0;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+
+td,
+th {
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-header-text {
+  font-size: 1.5rem;
+}

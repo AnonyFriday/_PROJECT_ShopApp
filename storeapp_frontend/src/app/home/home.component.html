@@ -1,0 +1,252 @@
+<style>
+  .intro-section {
+    text-align: center;
+    color: black;
+    padding: 2rem;
+  }
+
+  .search-box {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .search-input {
+    border-color: rgb(148, 155, 161);
+  }
+
+  .product-category {
+    width: 15rem;
+  }
+  .product-item {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+  .product-image {
+    width: 100%;
+    margin-bottom: 1.6rem;
+    height: auto; /*Reserve the image ratio*/
+  }
+
+  .product-rating {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    color: red;
+  }
+
+  .product-actions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+</style>
+
+<div class="container">
+  <!-- Intro Section -->
+  <div class="intro-section">
+    <h1>Home page</h1>
+    <p>This page display a list of products</p>
+    <p>Purchase and Observing can be done in this page</p>
+  </div>
+
+  <!-- One search box on the right, 1 combobox on the left -->
+  <div class="search-box">
+    <input
+      type="text"
+      class="form-control search-input"
+      placeholder="Search a product"
+    />
+    <select class="form-control product-category">
+      <option selected disabled>List of Products</option>
+      <option>Electronic Device</option>
+      <option>Foods</option>
+      <option>Household Goods</option>
+    </select>
+  </div>
+
+  <!-- A  -->
+  <div class="row g-5">
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="product-item">
+        <img
+          class="product-image"
+          alt="Product Image"
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300"
+        />
+
+        <h3>Product 1</h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          et.
+        </p>
+        <p class="product-warranty">Warranty: 12 Months</p>
+        <p class="product-price">Price: $100</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star-haft"></i>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-dark">Add to card</button>
+          <button class="btn btn-primary">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

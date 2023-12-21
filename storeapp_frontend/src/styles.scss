@@ -13,3 +13,36 @@ html {
 body {
   background-color: rgba(166, 243, 185, 0.3);
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+// ==============================
+// Atomic CSS
+// ==============================
+
+.flex {
+  display: flex;
+}
+
+.flex-r-nowrap {
+  flex-flow: row nowrap;
+}
+
+.flex-j-spacebetween {
+  justify-content: space-between;
+}
+
+.flex-j-center {
+  justify-content: center;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.border-radius-25px {
+  border-radius: 25px;
+}

@@ -1,0 +1,28 @@
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 55%;
+  right: 10px;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+.register-link:link,
+.register-link:visited {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-r-nowrap {
+  flex-flow: row nowrap;
+}
+
+.flex-spacebetween {
+  justify-content: space-between;
+}

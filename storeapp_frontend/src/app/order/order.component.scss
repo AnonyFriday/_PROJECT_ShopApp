@@ -1,7 +1,3 @@
-.container {
-  height: 100vh;
-}
-
 .intro-section {
   text-align: center;
   color: black;
@@ -20,4 +16,36 @@
 
 .form-control:focus {
   border-color: rgb(122, 107, 255);
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.product-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+
+.product-name {
+  color: aliceblue;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+  border-collapse: separate;
+  border: 1px solid black;
+  border-spacing: 0;
+  padding: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+
+td,
+th {
+  padding: 1.2rem;
+  text-align: center;
 }

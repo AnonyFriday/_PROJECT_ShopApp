@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+}
+
+.intro-section {
+  text-align: center;
+  color: black;
+  padding: 2rem;
+}
+
+.customer-header {
+}
+
+.order-header {
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+.form-control:focus {
+  border-color: rgb(122, 107, 255);
+}
